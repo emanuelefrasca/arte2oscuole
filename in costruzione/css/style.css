@@ -1,0 +1,36 @@
+
+.sfondo {
+    background-color: rgb(7,136,161);
+    text-align: center;
+}
+
+.logo {
+    padding-top: 10%;
+    text-align: center;
+    
+}
+
+.testo {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 43px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.number {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+}

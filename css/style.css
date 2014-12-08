@@ -1,0 +1,1810 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.altezza{
+    height: 100%;
+}
+
+#map-canvas { 
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.test_map{
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.titolo_map{
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo {
+    background-image: url(../images/logo_03.png);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.testo {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.barra-top {
+    height: 80px;
+    background-color: rgb(7,136,161);
+    margin-bottom: 0px;
+    font-size: 0px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    -moz-box-shadow:    0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    box-shadow:         0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+}
+
+.barra-top-corsi {
+    height: 80px;
+    background-color: #FFCB37;
+    margin-bottom: 0px;
+    font-size: 0px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    -moz-box-shadow:    0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    box-shadow:         0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+}
+
+.barra-top-insegnanti {
+    height: 80px;
+    background-color: #FF4C40;
+    margin-bottom: 0px;
+    font-size: 0px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    -moz-box-shadow:    0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    box-shadow:         0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+}
+
+.barra-top-media {
+    height: 80px;
+    background-color: #91488d;
+    margin-bottom: 0px;
+    font-size: 0px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    -moz-box-shadow:    0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    box-shadow:         0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+}
+
+.barra-top-contatti {
+    height: 80px;
+    background-color: #52BF91;
+    margin-bottom: 0px;
+    font-size: 0px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    -moz-box-shadow:    0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+    box-shadow:         0px 5px 20px 0px rgba(100, 100, 100, 0.30);
+}
+
+
+
+.bottone {
+    width: 20%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(7,136,161);
+}
+
+.bottone:hover{
+color:rgb(7,136,161);
+transition-property: color;
+transition-duration: 1.5s;
+-webkit-transition-property: color; /* Safari */
+-webkit-transition-duration: 1.5s; /* Safari */
+    
+background:rgb(255,255,255);
+transition-property: background-color;
+transition-duration: 1.5s;
+-webkit-transition-property: background-c∑olor; /* Safari */
+-webkit-transition-duration: 1.5s; /* Safari */
+}
+
+
+
+
+
+
+
+.barra-top-larghezza {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sfondomobile_home{
+background-color: rgb(7,136,161); 
+}
+
+.sfondomobile_contatti{
+background-color: #52BF91; 
+}
+
+.sfondomobile_media{
+background-color: #91488d; 
+}
+
+.sfondomobile_insegnanti{
+background-color: #FF4C40; 
+}
+
+.sfondomobile_corsi{
+background-color: #FFCB37; 
+}
+
+
+
+
+
+.pecetta_01 {
+background-color: rgb(7,136,161);
+width: 235px;
+}
+
+.pecetta_01dx {
+background-color: rgb(7,136,161);
+width: 265px;
+}
+
+.pecetta_01_dx {
+background-color: #bf4b4b;
+width: 260px;
+}
+
+.testo-pecetta-batteria {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.35;
+    background-color: rgb(7,136,161);
+    margin-bottom: 10px;
+    text-align: right;
+    padding-left: 10px
+}
+
+.sfondo-logo {
+    text-align: center;
+}
+
+.pecetta_02 {
+background-color: #FFCB37;
+    width: 200px;
+}
+
+.pecetta_02dx {
+background-color: #FFCB37;
+    width: 165px;
+    margin-left: 30px;
+}
+
+.pecetta_03 {
+background-color: #FF4C40;
+        width: 230px;
+}
+
+.pecetta_03dx {
+background-color: #FF4C40;
+        width: 120px;
+    margin-left: 150px;
+}
+
+.pecetta_04 {
+background-color: #91488d;
+        width: 320px;
+
+}
+
+.pecetta_04dx {
+background-color: #91488d;
+        width: 140px;
+        margin-left: 50px;
+}
+
+.pecetta_05 {
+background-color: #52BF91;
+            width: 305px;
+
+}
+
+.pecetta_05dx {
+background-color: #52BF91;
+            width: 175px;
+margin-left: 50px;
+}
+
+.test_medio {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 0%;
+    text-shadow: 2px 2px 3px #333;
+}
+
+.test_medio2 {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 22.5%;
+    text-shadow: 2px 2px 3px #333;
+}
+
+.testo_titolo {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.testo_titolo-contatti {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.testo_sede {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.testo_lettura {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.sfondo_giallo {
+    background-color: #FFCB37;
+    position: absolute;
+    z-index: 1;
+}
+
+.testo_titolo_blu {
+      font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.testo_lettura_blu {
+            font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: ;
+}
+
+.img_band {
+    background-image: url(/../images/band.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.paddingpagina {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 5%;
+}
+
+.testo_titolo-blu {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 24px;
+    color: rgb(7,136,161);
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+.testo_lettura-blu {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 16px;
+    color: rgb(7,136,161);
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.bottone-insegnati {
+    border: none;
+    color: #ffffff;
+    background-color: rgb(7,136,161);
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 600;   
+}
+
+.padding-insegnani {
+    margin-top: 2%;
+}
+
+.tumb-bord-insegnanti {
+    border-color: rgb(255,255,255);
+    background-color: #ffffff   ;
+}
+
+.sfondo-viola {
+    background-color: #91488d;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.top-barra {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.padding-top-barra {
+    padding-top: 80px;
+}
+
+.img_band_parallax {
+       background-image: url(/../images/band.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.ritaglio-img-parallax {
+    width: 100%;
+    height: 100px;
+}
+
+.img_parallax {
+    background-image: url(/../images/grattacielo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1500px;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+}
+
+.slide1{
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    position: relative;
+    z-index: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.img_t {
+    background-image: url(/../images/concerto.jpg);
+    width: 100%;
+    height: 910px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sfondo-bianco {
+    background-color: rgba(255,255,255,1);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+
+
+.sfondo-trasparente {
+    background-color: rgba(255,255,255,0);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.testo_titolo_overphoto_home {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+    margin-top: -5vh;
+}
+
+.testo_titolo_overphoto_social {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+}
+
+.testo_titolo_overphoto_home2 {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+}
+.testo_titolo_overphoto {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+}
+
+.testo_titolo_overphoto_media {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+}
+
+.sfondo-arancione {
+    background-color: #FF4C40;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.links{
+    margin:0;
+    list-style:none;
+    padding-left:0
+}
+.links li{
+    display:inline;
+    padding:0 10px
+}
+
+.slide-show{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.img-ampli {
+    background-image: url(/../images/ampli.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottone-home {
+    width: 20%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-home:hover {
+    color:rgb(7,136,161);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+
+    background:rgb(255,255,255);
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-corsi {
+    width: 20%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0); 
+}
+
+.bottone-corsi:hover{
+    color:rgb(255,255,255);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+
+    background:#FFCB37;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-insegnanti {
+    width: 20%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);     
+}
+
+.bottone-insegnanti:hover{
+    color:rgb(252,255,255);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+
+    background:#FF4C40;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-media {
+    width: 20%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);     
+}
+
+.bottone-media:hover{
+    color:rgb(255,255,255);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+
+    background:#91488d;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-sedi {
+    width: 20%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);     
+}
+
+.bottone-sedi:hover{
+    color:rgb(255,255,255);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+
+    background:#52BF91;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: background-color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+.sfondo-verde {
+    background-color: #52BF91;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.allineamento-centro {
+    text-align: center;
+}
+
+.testo-nome-scuole {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 1%;
+}
+
+.img_concertorosso {
+        background-image: url(/../images/concertorosso.jpg);
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sfondo-blu {
+    background-color: rgb(7,136,161);
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.img_orchestrafemminile {
+    background-image: url(../images/orchestrafemminile_05.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_bambinoviolino {
+    background-image: url(../images/bambinoviolino.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_concertobianco {
+        background-image: url(/../images/concertobianco.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.bottone-scroll {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll-contatti {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll-media {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll-insegnanti {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll-corsi {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-radius: 0px;
+    border: none;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll:hover{
+    color:rgb(7,136,161);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll-contatti:hover{
+    color:#52BF91;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll-media:hover{
+    color:#91488d;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll-insegnanti:hover{
+    color:#FF4C40;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll-corsi:hover{
+    color:#FFCB37;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.testo-lettura-home {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.testo-lettura-corsi {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: solid white 1px;
+    margin-bottom: 15px;
+}
+
+.testo-lettura-contatti {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2%;
+    text-decoration: none;
+}
+
+.testo-lettura-contatti-mail {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2%;
+    text-decoration: none;
+}
+
+.testo-lettura-contatti-mail:hover {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2%;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+.testo-foto {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.img_direttore {
+    background-image: url(/../images/direttoreorchestra.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_teenpublic {
+    background-image: url(/../images/teenagerpop_02.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.img_concerto {
+    background-image: url(../images/concerto.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: relative;  
+}
+
+.img_vivaldi {
+    background-image: url(/../images/Vivaldi.jpeg);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_bluconcert {
+    background-image: url(/../images/bluconcert_02.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fb {
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 20%;
+    background-image: url(../images/icons/fb.png);
+    
+}
+
+.tw {
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/icons/tw.png);
+    margin-top: 20%;
+}
+
+.sc {
+        width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/icons/sc.png);
+    margin-top: 20%;
+}
+
+.yt {
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/icons/yt.png);
+    margin-top: 20%;
+}
+
+.testo_lettura-scuole {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 1%;
+    padding-left: 40px;
+}
+
+.sfondo-blu_01 {
+        background-color: rgb(7,136,161);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+.img_laser {
+    background-image: url(/../images/laser.JPG);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_stage {
+     background-image: url(/../images/stage.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide_parallax_overphoto {
+    width: 100%;
+    position: relative;
+    padding: 350px 0;
+    text-align: center;
+}
+
+.slide_parallax_overphoto_media {
+    width: 100%;
+    position: relative;
+    padding: 250px 0;
+    text-align: center;
+}
+
+.slide_parallax {
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.slide_parallax_pecette {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+#slide1 {
+    height: 100%;
+    background-image: url(../images/concerto.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide3 {
+    background-image: url(../images/bambinoviolino.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;  
+    padding: 100px 0;
+
+}
+
+#slide2, #slide4, #slide7 {
+    background-color: rgb(7,136,161);
+    z-index: 2;
+}
+
+#slide6 {
+    background-color: rgb(7,136,161);
+    z-index: 2;
+}
+
+#slide2-corsi, #slide4-corsi {
+    background-color: #FFCB37;
+    z-index: 2;
+}
+
+#slide4-social {
+    background-color: rgba(255,201,25,0);
+    z-index: 2;
+}
+
+#slide2-social {
+    background-color: #52BF91;
+    z-index: 2;
+    padding-top: 110px;
+}
+
+#slide2-insegnanti, #slide4-insegnanti{
+    background-color: #FF4C40;
+    z-index: 2;
+}
+
+#slide2-media, #slide4-media{
+    background-color: #91488d;
+    z-index: 2;
+}
+
+.bottone-scroll_home {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-color: #fff;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 5vh;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll_home_contatti {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-color: #fff;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll_home_media {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-color: #fff;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll_home_insegnanti {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-color: #fff;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll_home_corsi {
+    width: 280px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: "Century Gothic", "Helvetica", "Helvetica Neue", sans-serif;
+    color: rgb(255,255,255);
+    border-color: #fff;
+    height: 80px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgba(7,136,161,0);
+}
+
+.bottone-scroll_home_corsi:hover{
+    color:#FFCB37;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+    
+.bottone-scroll_home:hover{
+    color:rgb(7,136,161);
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll_home_contatti:hover{
+    color: #52BF91;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll_home_media:hover{
+    color:#91488d;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+.bottone-scroll_home_insegnanti:hover{
+    color:#FF4C40;
+    transition-property: color;
+    transition-duration: 1.5s;
+    -webkit-transition-property: color; /* Safari */
+    -webkit-transition-duration: 1.5s; /* Safari */
+}
+
+#slide1_corsi {
+    height: 100%;
+    background-image: url(../images/concertobianco.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide1_social {
+    height: 100%;
+    background-image: url(../images/stage.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide1_insegnanti {
+    height: 100%;
+    background-image: url(../images/bluconcert_02.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide1_media {
+    height: 100%;
+    background-image: url(../images/teenagerpop_02.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide3_corsi {
+    background-image: url(../images/direttoreorchestra.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    padding: 280px 0;
+
+}
+
+#slide3_social {
+    background-image: url(../images/concertorosso.jpg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 100%;
+    padding-top: 110px;
+
+}
+
+#slide3_insegnanti {
+    background-image: url(../images/Vivaldi.jpeg);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    padding: 280px 0;
+
+}
+
+#slide3_media {
+    background-image: url(../images/laser.JPG);
+	background-color:#fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    padding: 120px 0;
+
+}
+
+.soundcloud {
+    padding-top: 3.5%
+}
+
+
+.pecetta {
+    display: block;
+    height: 80px;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.pecettaL {
+    display: block;
+    height: 80px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+
+
+
+.pecettaLdx {
+    display: block;
+    height: 80px;
+    text-align: left;
+    margin-top: 15px;
+    float: right;
+}
+
+.allinamento_generi {
+    margin-right: 0px;
+}
+
+.paddinNO {
+    padding-left: 0px;
+}
+
+.paddinNOdx {
+    padding-right: 0px;
+}
+
+.nopadding {
+    padding: 0px;
+}
+
+.nopadding2 {
+    padding: 0px;
+}
+
+#text-btn-color {
+    color: #fff;
+}
+
+#text-btn-color-home {
+    color: #fff;
+}
+
+#text-btn-color-home:hover {
+    color: rgb(7,136,161);
+}
+
+
+#mobilebotton {
+    background-color: rgb(7,136,161);
+}
+
+#mobilebotton-corsi {
+    background-color: #FFCB37;
+}
+
+#mobilebotton-insegnanti {
+    background-color: #FF4C40;
+}
+
+#mobilebotton-media {
+    background-color: #91488d;
+}
+
+#mobilebotton-contatti {
+    background-color: #52BF91;
+}
+
+#righemobile {
+    background-color: #fff;
+}
+
+.padingmobilesedi {
+    
+}
+
+.testo-pecetta {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.35;
+    padding-left: 10px;
+    padding-top: 6px
+}
+
+.targhetriferimento {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 20px;
+    color: #FFCB37;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid white 1px;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+.microtitolo {
+    text-align: center;
+    font-weight: 600;
+}
+
+.testostorto {
+    font-style: italic;
+}
+
+.distanza {
+    margin-bottom: 50px;
+}
+
+.marginealtobimbotesto {
+    margin-top: 10%;
+}
+
+
+
+
+
+@media(max-width:1024px){
+
+.testo_titolo_overphoto_home{
+    font-size: 32px;
+    margin-top: -80px;
+} 
+
+.bottone-scroll_home {
+margin-top: 50px;
+}
+
+.testo_titolo_overphoto_media {
+margin-top: -100px;
+}    
+
+.testo_sede {
+    font-size: 22px;
+}    
+}
+
+
+
+
+@media(max-width:768px){
+
+#map-canvas { 
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}    
+
+.fb {
+width: 45%;
+height: 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-top: 0%;
+background-image: url(../images/icons/fb.png);
+float: left;
+}
+
+.tw {
+width: 45%;
+height: 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-image: url(../images/icons/tw.png);
+margin-top: 0%;
+margin-left: 5%;
+float: left;
+}    
+    
+.sc {
+width: 45%;
+height: 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-image: url(../images/icons/sc.png);
+margin-top: 5%;
+margin-left: -0.5%;
+float: left;
+}
+    
+.yt {
+width: 45%;
+height: 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-image: url(../images/icons/yt.png);
+margin-top: 5%;
+text-align: center;
+float: left;
+margin-left: 5%;
+}
+}
+    
+@media(max-width:767px){
+
+.marginealtobimbotesto {
+    margin-top: -10%;
+}
+    
+.pecetta_01 {
+background-color: rgb(7,136,161);
+width: 175px;
+}
+
+.pecetta_02 {
+background-color: #FFCB37;
+    width: 150px;
+}
+    
+.pecetta_03 {
+background-color: #FF4C40;
+        width: 170px;
+}
+    
+.pecetta_04 {
+background-color: #91488d;
+        width: 230px;
+}
+
+.pecetta_05 {
+background-color: #52BF91;
+            width: 220px;
+}
+    
+.pecetta_01dx {
+background-color: rgb(7,136,161);
+width: 190px;
+}
+
+.pecetta_02dx {
+background-color: #FFCB37;
+    width: 130px;
+    margin-left: 0px;
+}
+    
+.pecetta_03dx {
+background-color: #FF4C40;
+        width: 105px;
+        margin-left: 0px;
+}
+    
+.pecetta_04dx {
+background-color: #91488d;
+        width: 115px;
+        margin-left: 0px;
+}
+
+.pecetta_05dx {
+background-color: #52BF91;
+            width: 140px;
+            margin-left: 0px;
+}
+    
+.testo-pecetta {
+    font-family: "Century Gothic", "trebuchet ms", "Helvetica", "helvetica neue", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.35;
+    padding-left: 35px;
+    padding-top: 6px
+}
+    
+.paddinNOdx {
+    padding-left: 0px;
+}
+
+.pecettaLdx {
+    display: block;
+    height: 50px;
+    text-align: left;
+    margin-top: 15px;
+    float: none;
+}
+
+.pecettaL {
+    display: block;
+    height: 50px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.top-barra {
+position: relative;
+width: 100%;
+z-index: 100;
+}
+
+.slide-resp{
+display: none;
+}    
+    
+.testo_titolo_overphoto_media {
+margin-top: -200px;
+font-size: 32px;
+}
+
+.testo_titolo_overphoto_home2{
+font-size: 32px;
+margin-top: 20%;
+}  
+    
+.testo_titolo_overphoto_home{
+font-size: 32px;
+margin-top: -5%;
+}    
+    
+.testo_titolo_overphoto{
+font-size: 32px;
+}    
+    
+.slide-show{
+width: 100%;
+margin: 5px 0 5px;
+}
+
+#slide3_media{
+padding: 40px 0;
+}    
+    
+#schidden_01{
+    display: none;
+}     
+    
+.top-barra{
+    height: 50px;
+}
+
+.nopadding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+.bottone-home{
+width: 100%;
+}
+
+.bottone-corsi{
+width: 100%;
+}
+
+.bottone-insegnanti{
+width: 100%;
+}
+    
+.bottone-media{
+width: 100%;
+}
+
+.bottone-sedi{
+width: 100%;
+}
+    
+.barra-top-larghezza {
+margin: 0px;
+}
+ 
+.logo{
+margin-top: -10%;
+height: 195px;
+}
+ 
+.bottone-scroll_home {
+margin-top: 0px;
+}
+    
+.testo_titolo_overphoto {
+margin-top: -250px;
+}    
+
+.padingmobilesedi {
+padding-top: 50px;    
+}    
+}
+
+@media(max-width:1000px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marginicorsi {
+    margin-left: 15px;
+    margin-right: 15px;
+}
